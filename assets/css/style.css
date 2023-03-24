@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+a {
+  color: var(--secondary);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
 :root {
   --primary: rgba(68, 88, 119, 1);
   --secondary: rgba(146, 204, 206, 1);
@@ -51,9 +57,11 @@ nav {
 ul {
   text-align: right;
   padding-right: 30px;
+  list-style-type: none;
 }
 
-.nav-li-link {
+li .nav-li-link {
+  text-decoration: none;
   display: inline-block;
   color: var(--secondary);
   margin-left: 10px;
@@ -65,6 +73,7 @@ ul {
   background-color: #afeeee;
   color: #292b2c;
   padding: 0px 10px 0 10px;
+  margin-right: 40px;
 }
 
 .fg-color {
@@ -137,7 +146,7 @@ img {
   border: 5px solid var(--secondary);
 }
 
-.img-1-container{
+.img-1-container {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -155,7 +164,7 @@ img {
   /* margin-left: 10px; */
 }
 
-.img-label{
+.img-label {
   /* position: relative; */
   position: absolute;
   display: inline-block;
@@ -168,7 +177,7 @@ img {
   z-index: 1;
 }
 
-.img-2-label{
+.img-2-label {
   /* position: relative; */
   position: absolute;
   display: inline-block;
@@ -216,6 +225,7 @@ li[data-nav-link] {
   position: relative;
   padding: 10px;
   margin: 10px;
+  border-bottom: 3px solid var(--secondary);
 }
 
 /* ::before pseudo-element allows you to insert content 
@@ -238,15 +248,15 @@ li[data-nav-link]::before {
 li[data-nav-link]:hover::before {
   content: "";
   text-align: center;
-  color: var(--dark);
-  padding-top: 5px;
-  height: 70%;
+  /* color: var(--dark); */
+  color: var(--primary);
+  /* padding-top: 5px; */
+  height: 100%;
 }
 
 /* todo: need to work on responsive design */
-@media only screen and (max-width: 800){
-  .about-container{
+@media only screen and (max-width: 800) {
+  .about-container {
     flex-direction: column;
   }
-  
 }
