@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: rgba(68, 88, 119, 1);
+  --secondary: rgba(146, 204, 206, 1);
+  --tertiary: rgba(49, 52, 61, 1);
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(238, 238, 247, 1);
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* height: 100vh; */
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  padding: 10px 150px 10px 0px;
+  justify-content: space-between;
+}
+
+.webpage-title {
+  padding: 0px 5px 0px 75px;
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  font-size: 3rem;
+}
+
+.banner {
+  grid-area: banner;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 40px 150px 40px;
+  height: 200px;
+  background-image: url("/assets/images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.nav-li-link {
+  display: inline-block;
+  color: var(--secondary);
+  margin-left: 10px;
+  border-bottom: 3px solid rgb(126, 202, 177);
+  font-size: 1.2rem;
+}
+
+.cool-subtitle {
+  background-color: #afeeee;
+  color: #292b2c;
+  padding: 0px 10px 0 10px;
+}
+
+.fg-color {
+  color: #afeeee;
+}
+
+.bg-color {
+  background-color: #292b2c;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 200px 0px 150px;
+  /* border: 3px dashed purple; */
+  margin-bottom: 40px;
+}
+
+aside {
+  /* border: 3px dashed green; */
+  font-size: 2rem;
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+  color: var(--primary);
+  border-right: 3px solid var(--primary);
+}
+
+section {
+  flex: 3;
+  padding-left: 40px;
+  padding-right: 75px;
+  /* border-left: 3px solid var(--primary); */
+  align-content: center;
+  /* border: 3px dashed blue; */
+}
+
+.contact-me-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  /* justify-content: left; */
+  /* margin: 5px; */
+  padding: 0px 150px 0px 150px;
+  margin-bottom: 20px;
+  /* border: 3px dashed purple; */
+}
+
+.contact-me-ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  /* border: 3px dashed green; */
+  font-size: 1.2rem;
+}
+
+.contact-me-ul li {
+  border-bottom: 3px solid var(--primary);
+  color: var(--primary);
+  padding: 5px;
+}
+.nav-li {
+  display: flex;
+}
+
+img {
+  border: 5px solid var(--secondary);
+}
+
+.img-1-container{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-1 {
+  /* position: relative; */
+  z-index: -1;
+  width: 1285px;
+  /* height: 800px; */
+  /* background-image: url("/assets/images/02-portfolio-4.jpg"); */
+  background-repeat: no-repeat;
+  object-fit: none;
+  margin-bottom: 5px;
+  /* margin-left: 10px; */
+}
+
+.img-label{
+  /* position: relative; */
+  position: absolute;
+  display: inline-block;
+  left: 5px;
+  top: 692px;
+  background-color: var(--secondary);
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.img-2-label{
+  /* position: relative; */
+  position: absolute;
+  display: inline-block;
+  left: 5px;
+  top: 127px;
+  background-color: var(--secondary);
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.img-2 {
+  width: 625px;
+  height: 275px;
+  margin: 20px 25px 0px 0px;
+  margin-top: 20px;
+  /* object-fit: none; */
+}
+
+.img-3 {
+  width: 630px;
+  height: 275px;
+  object-fit: none;
+  /* margin: 10px; */
+}
+.img-4 {
+  width: 630px;
+  height: 275px;
+  object-fit: none;
+  object-position: center;
+  margin: 20px 20px 0px 0px;
+}
+
+.img-5 {
+  width: 630px;
+  height: 275px;
+  object-fit: none;
+  object-position: center;
+  margin-top: 20px;
+}
+
+/* NAV LINK TRANSITION */
+li[data-nav-link] {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* ::before pseudo-element allows you to insert content 
+"before" the selected element 
+::after pseudo-element allows you to insert content 
+"after" the selected element*/
+li[data-nav-link]::before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  color: var(--primary);
+  background-color: var(--secondary);
+  transition: height 0.3s ease-in-out;
+  z-index: 1;
+}
+
+li[data-nav-link]:hover::before {
+  content: "";
+  text-align: center;
+  color: var(--dark);
+  padding-top: 5px;
+  height: 70%;
+}
+
+/* todo: need to work on responsive design */
+@media only screen and (max-width: 800){
+  .about-container{
+    flex-direction: column;
+  }
+  
+}
