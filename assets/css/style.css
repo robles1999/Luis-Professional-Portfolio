@@ -100,7 +100,7 @@ header {
 }
 
 .webpage-title {
-  padding: 0px 5px 0px 75px;
+  padding: 10px 10px 0px 75px;
   background-color: var(--secondary);
   color: var(--tertiary);
   font-size: 3rem;

@@ -26,7 +26,7 @@
 
 # Landing Page
 
-[Link to the refactored Horiseon website.](https://robles1999.github.io/Professional-Portfolio---Module-2)
+[Link to My Work Portfolio website.](https://robles1999.github.io/Professional-Portfolio---Module-2)
 
 # Built with
 
