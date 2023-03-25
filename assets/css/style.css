@@ -318,12 +318,20 @@ section {
 
 
   header,
-  .nav-li,
-  banner {
+  .nav-li {
     display: block;
     padding: 20px 0px 0px 0px;
     margin: auto;
     text-align: center;
+  }
+
+  .banner{
+    justify-content: center;
+  }
+
+  .cool-subtitle{
+    text-align: center;
+    min-width: 250px;
   }
 
   aside{
