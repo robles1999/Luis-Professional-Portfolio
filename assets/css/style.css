@@ -112,7 +112,7 @@ header {
   align-items: flex-end;
   padding: 40px 150px 40px;
   height: 200px;
-  background-image: url("/assets/images/02-hero-bg.jpg");
+  background-image: url("./assets/images/02-hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -211,6 +211,7 @@ section {
   /* min-width: 700px; */
   width: 1177px;
   height: 575px;
+  background-size: 170%;
   background-image: url("/assets/images/02-portfolio-4.jpg");
   /* background-repeat: no-repeat; */
   /* object-fit: none; */
@@ -236,6 +237,7 @@ section {
   height: 275px;
   min-width: 300px;
   margin-bottom: 20px;
+  background-size: auto;
   /* margin: 20px 25px 0px 0px; */
   /* margin-top: 20px; */
   background-image: url("/assets/images/02-portfolio-1.jpg");
@@ -248,6 +250,7 @@ section {
   min-width: 300px;
   object-fit: none;
   margin-bottom: 20px;
+  background-size:160%;
   background-image: url("/assets/images/02-portfolio-2.jpg");
   /* margin: 10px; */
 }
@@ -258,6 +261,7 @@ section {
   margin-bottom: 20px;
   object-fit: none;
   object-position: center;
+  background-size: 170%;
   background-image: url("/assets/images/02-portfolio-3.jpg");
   /* margin: 20px 20px 0px 0px; */
 }
@@ -269,12 +273,13 @@ section {
   margin-bottom: 20px;
   object-fit: fill;
   object-position: center;
+  background-size: 170%;
   background-image: url("/assets/images/02-run-buddy.jpg");
   /* margin-top: 20px; */
 }
 
 /* todo: need to work on responsive design */
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
   .img-1 {
     position: relative;
     width: 900px;
@@ -282,17 +287,16 @@ section {
     background-image: url("/assets/images/02-portfolio-4.jpg");
     margin-bottom: 20px;
   }
-}
+} */
 
-@media screen and (max-width: 1710px) {
+/* @media screen and (max-width: 1710px) {
   .img-1 {
     position: relative;
     width: 561px;
     height: 575px;
     background-image: url("/assets/images/02-portfolio-4.jpg");
-    /* margin-bottom: 5px; */
   }
-}
+} */
 
 @media screen and (max-width: 1180px) {
   .heading-reset {
@@ -304,15 +308,14 @@ section {
   }
 }
 
-@media screen and (max-width: 845px) {
+/* @media screen and (max-width: 845px) { */
+@media screen and (max-width: 993px) {
   * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
 
-  header {
-  }
 
   header,
   .nav-li,
@@ -329,15 +332,6 @@ section {
     /* border-bottom:3px solid var(--primary) ; */
   }
 
-  /* .contact-me-ul{
-    display: block;
-    padding: 0px 0px 0px 0px;
-  }
-  .contact-ul-container{
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-  }
-*/
   .contact-me-container{
     display: block;
     padding: 0px 0px 0px 0px;
