@@ -212,7 +212,7 @@ section {
   width: 1177px;
   height: 575px;
   background-size: 170%;
-  background-image: url("/assets/images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
   /* background-repeat: no-repeat; */
   /* object-fit: none; */
   margin-bottom: 20px;
@@ -240,7 +240,7 @@ section {
   background-size: auto;
   /* margin: 20px 25px 0px 0px; */
   /* margin-top: 20px; */
-  background-image: url("/assets/images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
   /* object-fit: none; */
 }
 
@@ -251,7 +251,7 @@ section {
   object-fit: none;
   margin-bottom: 20px;
   background-size:160%;
-  background-image: url("/assets/images/02-portfolio-2.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
   /* margin: 10px; */
 }
 .img-4 {
@@ -262,7 +262,7 @@ section {
   object-fit: none;
   object-position: center;
   background-size: 170%;
-  background-image: url("/assets/images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
   /* margin: 20px 20px 0px 0px; */
 }
 
@@ -274,7 +274,7 @@ section {
   object-fit: fill;
   object-position: center;
   background-size: 170%;
-  background-image: url("/assets/images/02-run-buddy.jpg");
+  background-image: url("../images/02-run-buddy.jpg");
   /* margin-top: 20px; */
 }
 
