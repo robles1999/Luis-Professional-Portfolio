@@ -65,7 +65,6 @@ a:hover::after {
   transform: scaleY(1);
 }
 
-
 /*! LINK ANIMATION - DON'T DELETE ABOVE THIS LINE */
 
 nav {
@@ -180,8 +179,6 @@ section {
   border: 5px solid var(--secondary);
 }
 
-
-
 .img-label {
   /* position: relative; */
   position: absolute;
@@ -196,7 +193,7 @@ section {
 }
 
 /*! ::::::::::::: IMAGES SECTION ::::::::::::: */
-.images-section{
+.images-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -213,7 +210,7 @@ section {
   /* z-index: -1; */
   /* min-width: 700px; */
   width: 1177px;
-  height: 575px; 
+  height: 575px;
   background-image: url("/assets/images/02-portfolio-4.jpg");
   /* background-repeat: no-repeat; */
   /* object-fit: none; */
@@ -270,7 +267,7 @@ section {
   height: 275px;
   min-width: 300px;
   margin-bottom: 20px;
-  object-fit:fill;
+  object-fit: fill;
   object-position: center;
   background-image: url("/assets/images/02-run-buddy.jpg");
   /* margin-top: 20px; */
@@ -278,39 +275,33 @@ section {
 
 /* todo: need to work on responsive design */
 @media screen and (max-width: 1500px) {
-
-
   .img-1 {
-  position: relative;
-  width: 900px;
-  height: 575px; 
-  background-image: url("/assets/images/02-portfolio-4.jpg");
-  margin-bottom: 20px;
+    position: relative;
+    width: 900px;
+    height: 575px;
+    background-image: url("/assets/images/02-portfolio-4.jpg");
+    margin-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 1710px) {
-
-
   .img-1 {
-  position: relative;
-  width: 561px;
-  height: 575px; 
-  background-image: url("/assets/images/02-portfolio-4.jpg");
-  /* margin-bottom: 5px; */
+    position: relative;
+    width: 561px;
+    height: 575px;
+    background-image: url("/assets/images/02-portfolio-4.jpg");
+    /* margin-bottom: 5px; */
   }
 }
 
 @media screen and (max-width: 1180px) {
-  .heading-reset{
+  .heading-reset {
     padding: 0px;
     border-right: none;
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -318,8 +309,7 @@ section {
     display: block;
   }
 
-  .about-me-link{
+  .about-me-link {
     width: 120px;
   }
-
 }
