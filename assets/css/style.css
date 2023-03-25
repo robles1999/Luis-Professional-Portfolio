@@ -87,7 +87,6 @@ ul {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* height: 100vh; */
 }
 
 header {
@@ -147,25 +146,19 @@ section {
   align-content: center;
   justify-content: center;
   min-width: 700px;
-  /* border: 3px dashed blue; */
 }
 
 .contact-me-container {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
-  /* justify-content: left; */
-  /* margin: 5px; */
   padding: 0px 150px 0px 150px;
   margin-bottom: 20px;
-  /* border: 3px dashed purple; */
 }
 
 .contact-me-ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  /* border: 3px dashed green; */
   font-size: 1.2rem;
 }
 
@@ -180,10 +173,7 @@ section {
 }
 
 .img-label {
-  /* position: relative; */
   position: absolute;
-  /* display: inline-block; */
-  /* left: 5px; */
   top: 420px;
   background-color: var(--secondary);
   font-size: 2rem;
@@ -196,34 +186,23 @@ section {
 .images-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
 }
 .img-1-container {
-  /* display: inline-block; */
   position: relative;
-  /* overflow: hidden; */
 }
 
 .img-1 {
   position: relative;
-  /* z-index: -1; */
-  /* min-width: 700px; */
   width: 1177px;
   height: 575px;
-  background-size: 170%;
+  background-size: 1850px;
   background-image: url("../images/02-portfolio-4.jpg");
-  /* background-repeat: no-repeat; */
-  /* object-fit: none; */
   margin-bottom: 20px;
-  /* margin-left: 10px; */
 }
 
 .img-2-label {
-  /* position: relative; */
   position: absolute;
-  /* display: inline-block; */
-  /* left: 2px; */
   top: 127px;
   background-color: var(--secondary);
   font-size: 2rem;
@@ -233,29 +212,28 @@ section {
 }
 
 .img-2 {
-  width: 561px;
+  width: 579px;
+  margin: 0px 10px 20px;
   height: 275px;
   min-width: 300px;
-  margin-bottom: 20px;
   background-size: auto;
-  /* margin: 20px 25px 0px 0px; */
-  /* margin-top: 20px; */
   background-image: url("../images/02-portfolio-1.jpg");
-  /* object-fit: none; */
 }
 
 .img-3 {
-  width: 561px;
+    width: 579px;
+  margin: 0px 10px 20px;
   height: 275px;
   min-width: 300px;
   object-fit: none;
+  margin: 0px 10px 20px;
   margin-bottom: 20px;
   background-size:160%;
   background-image: url("../images/02-portfolio-2.jpg");
-  /* margin: 10px; */
 }
 .img-4 {
-  width: 561px;
+    width: 579px;
+  margin: 0px 10px 20px;
   height: 275px;
   min-width: 300px;
   margin-bottom: 20px;
@@ -263,11 +241,11 @@ section {
   object-position: center;
   background-size: 170%;
   background-image: url("../images/02-portfolio-3.jpg");
-  /* margin: 20px 20px 0px 0px; */
 }
 
 .img-5 {
-  width: 561px;
+    width: 579px;
+  margin: 0px 10px 20px;
   height: 275px;
   min-width: 300px;
   margin-bottom: 20px;
@@ -275,47 +253,14 @@ section {
   object-position: center;
   background-size: 170%;
   background-image: url("../images/02-run-buddy.jpg");
-  /* margin-top: 20px; */
 }
 
-/* todo: need to work on responsive design */
-/* @media screen and (max-width: 1500px) {
-  .img-1 {
-    position: relative;
-    width: 900px;
-    height: 575px;
-    background-image: url("/assets/images/02-portfolio-4.jpg");
-    margin-bottom: 20px;
-  }
-} */
-
-/* @media screen and (max-width: 1710px) {
-  .img-1 {
-    position: relative;
-    width: 561px;
-    height: 575px;
-    background-image: url("/assets/images/02-portfolio-4.jpg");
-  }
-} */
-
-@media screen and (max-width: 1180px) {
-  .heading-reset {
-    padding: 0px;
-    border-right: none;
-    width: 200px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-}
-
-/* @media screen and (max-width: 845px) { */
 @media screen and (max-width: 993px) {
   * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
-
 
   header,
   .nav-li {
@@ -337,7 +282,6 @@ section {
   aside{
     text-align: center;
     width: 300px;
-    /* border-bottom:3px solid var(--primary) ; */
   }
 
   .contact-me-container{
