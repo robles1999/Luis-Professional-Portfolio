@@ -288,9 +288,6 @@ section {
   margin-bottom: 20px;
   }
 
-  .img-2{
-    margin-top: 20px;
-  }
 }
 
 @media screen and (max-width: 1710px) {
@@ -301,7 +298,7 @@ section {
   width: 561px;
   height: 575px; 
   background-image: url("/assets/images/02-portfolio-4.jpg");
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   }
 }
 
