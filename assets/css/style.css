@@ -24,7 +24,7 @@ li[data-nav-link] {
 
 a {
   display: inline-block;
-    font-size: 1.3rem;
+  font-size: 1.3rem;
   /* relative so that the pseudo element after is position relative
      to this `a` element. */
   position: relative;
@@ -65,7 +65,7 @@ a:hover::after {
   transform: scaleY(1);
 }
 
-/*!   */
+
 /*! LINK ANIMATION - DON'T DELETE ABOVE THIS LINE */
 
 nav {
@@ -118,15 +118,17 @@ header {
   background-size: cover;
 }
 
+/*! :::::::::::::: ABOUT CONTAINER :::::::::::::: */
 .about-container {
   display: flex;
+  flex: 1 1 auto;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
   margin: 20px 0px 0px 0px;
-  padding: 0px 200px 0px 150px;
-  /* border: 3px dashed purple; */
+  padding: 0px 150px 0px 150px;
   margin-bottom: 40px;
+  /* border: 3px dashed purple; */
 }
 
 aside {
@@ -140,10 +142,12 @@ aside {
 }
 
 section {
-  flex: 3;
+  flex: 1;
   padding-left: 40px;
   padding-right: 75px;
   align-content: center;
+  justify-content: center;
+  min-width: 700px;
   /* border: 3px dashed blue; */
 }
 
@@ -172,36 +176,18 @@ section {
   padding: 5px;
 }
 
-
-
-img {
+.img-border {
   border: 5px solid var(--secondary);
 }
 
-.img-1-container {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-}
 
-.img-1 {
-  /* position: relative; */
-  z-index: -1;
-  width: 1285px;
-  /* height: 800px; */
-  /* background-image: url("/assets/images/02-portfolio-4.jpg"); */
-  background-repeat: no-repeat;
-  object-fit: none;
-  margin-bottom: 5px;
-  /* margin-left: 10px; */
-}
 
 .img-label {
   /* position: relative; */
   position: absolute;
-  display: inline-block;
-  left: 5px;
-  top: 692px;
+  /* display: inline-block; */
+  /* left: 5px; */
+  top: 420px;
   background-color: var(--secondary);
   font-size: 2rem;
   padding: 1rem;
@@ -209,11 +195,37 @@ img {
   z-index: 1;
 }
 
+/*! ::::::::::::: IMAGES SECTION ::::::::::::: */
+.images-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-1-container {
+  /* display: inline-block; */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.img-1 {
+  position: relative;
+  /* z-index: -1; */
+  /* min-width: 700px; */
+  width: 1177px;
+  height: 575px; 
+  background-image: url("/assets/images/02-portfolio-4.jpg");
+  /* background-repeat: no-repeat; */
+  /* object-fit: none; */
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+}
+
 .img-2-label {
   /* position: relative; */
   position: absolute;
-  display: inline-block;
-  left: 5px;
+  /* display: inline-block; */
+  /* left: 2px; */
   top: 127px;
   background-color: var(--secondary);
   font-size: 2rem;
@@ -223,40 +235,94 @@ img {
 }
 
 .img-2 {
-  width: 625px;
+  width: 561px;
   height: 275px;
-  margin: 20px 25px 0px 0px;
-  margin-top: 20px;
+  min-width: 300px;
+  margin-bottom: 20px;
+  /* margin: 20px 25px 0px 0px; */
+  /* margin-top: 20px; */
+  background-image: url("/assets/images/02-portfolio-1.jpg");
   /* object-fit: none; */
 }
 
 .img-3 {
-  width: 630px;
+  width: 561px;
   height: 275px;
+  min-width: 300px;
   object-fit: none;
+  margin-bottom: 20px;
+  background-image: url("/assets/images/02-portfolio-2.jpg");
   /* margin: 10px; */
 }
 .img-4 {
-  width: 630px;
+  width: 561px;
   height: 275px;
+  min-width: 300px;
+  margin-bottom: 20px;
   object-fit: none;
   object-position: center;
-  margin: 20px 20px 0px 0px;
+  background-image: url("/assets/images/02-portfolio-3.jpg");
+  /* margin: 20px 20px 0px 0px; */
 }
 
 .img-5 {
-  width: 630px;
+  width: 561px;
   height: 275px;
-  object-fit: none;
+  min-width: 300px;
+  margin-bottom: 20px;
+  object-fit:fill;
   object-position: center;
-  margin-top: 20px;
+  background-image: url("/assets/images/02-run-buddy.jpg");
+  /* margin-top: 20px; */
 }
 
-
-
 /* todo: need to work on responsive design */
-@media only screen and (max-width: 800) {
-  .about-container {
-    flex-direction: column;
+@media screen and (max-width: 1500px) {
+
+
+  .img-1 {
+  position: relative;
+  width: 900px;
+  height: 575px; 
+  background-image: url("/assets/images/02-portfolio-4.jpg");
+  margin-bottom: 20px;
   }
+
+  .img-2{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1710px) {
+
+
+  .img-1 {
+  position: relative;
+  width: 561px;
+  height: 575px; 
+  background-image: url("/assets/images/02-portfolio-4.jpg");
+  margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .heading-reset{
+    padding: 0px;
+    border-right: none;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: block;
+  }
+
+  .about-me-link{
+    width: 120px;
+  }
+
 }
