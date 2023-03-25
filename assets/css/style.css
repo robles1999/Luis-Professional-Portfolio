@@ -112,7 +112,7 @@ header {
   align-items: flex-end;
   padding: 40px 150px 40px;
   height: 200px;
-  background-image: "../assets/images/02-hero-bg.jpg";
+  background-image: "/assets/images/02-hero-bg.jpg";
   background-repeat: no-repeat;
   background-size: cover;
 }
