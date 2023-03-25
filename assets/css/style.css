@@ -304,9 +304,83 @@ section {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 845px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
   header {
+  }
+
+  header,
+  .nav-li,
+  banner {
     display: block;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+  }
+
+  aside{
+    text-align: center;
+    width: 300px;
+    /* border-bottom:3px solid var(--primary) ; */
+  }
+
+  /* .contact-me-ul{
+    display: block;
+    padding: 0px 0px 0px 0px;
+  }
+  .contact-ul-container{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+*/
+  .contact-me-container{
+    display: block;
+    padding: 0px 0px 0px 0px;
+  } 
+
+  .contact-me-container aside{
+    display: block;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    border: none;
+  }
+  
+  .contact-me-h1{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 10px;
+  }
+  section {
+    min-width: 0px;
+    padding: 0px 40px 0px 40px;
+  }
+
+  .about-container {
+    display: block;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .heading-reset {
+    padding: 5px 0px 0px 0px;
+    width: auto;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  .contact-me-ul{
+    display: block;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .contact-me-ul li{
+    border: none;
   }
 
   .about-me-link {
