@@ -93,7 +93,7 @@ header {
   grid-area: header;
   display: flex;
   background-color: var(--tertiary);
-  padding: 10px 150px 10px 0px;
+  padding: 10px 250px 10px 0px;
   justify-content: space-between;
 }
 
@@ -109,7 +109,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 40px 150px 40px;
+  padding: 40px 260px 40px;
   height: 200px;
   background-image: url("../images/02-hero-bg.jpg");
   background-repeat: no-repeat;
@@ -124,9 +124,9 @@ header {
   align-content: flex-start;
   justify-content: center;
   margin: 20px 0px 0px 0px;
-  padding: 0px 150px 0px 150px;
+  padding: 0px 200px 0px 200px;
   margin-bottom: 40px;
-  /* border: 3px dashed purple; */
+  border: 3px dashed purple;
 }
 
 aside {
@@ -151,7 +151,7 @@ section {
 .contact-me-container {
   display: flex;
   align-items: center;
-  padding: 0px 150px 0px 150px;
+  padding: 0px 202px 0px 202px;
   margin-bottom: 20px;
 }
 
