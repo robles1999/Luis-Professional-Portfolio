@@ -340,7 +340,7 @@ a:hover::after {
   }
 
   header {
-    border: 3px dashed purple;
+    /* border: 3px dashed purple; */
     /* display: flex; */
     background-color: var(--tertiary);
     padding: 20px 0px 10px 0px;
