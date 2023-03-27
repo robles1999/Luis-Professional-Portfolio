@@ -14,7 +14,7 @@
 
 header {
   background-color: var(--tertiary);
-  padding: 3% 0px 3% 0px;
+  padding: 3% 0px 0% 0px;
   justify-content: center;
   /* border: 3px dashed red; */
 }
@@ -297,6 +297,8 @@ a:hover::after {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+
   .nav-li {
     display: flex;
     justify-content: center;
@@ -317,6 +319,12 @@ a:hover::after {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 1200px) {
+  header {
+    /* background-color: var(--tertiary); */
+    padding: 0px 0px 0px 0px;
+    /* justify-content: center; */
+    /* border: 3px dashed red; */
+  }
   p {
     max-width: 1200px;
   }
@@ -343,7 +351,7 @@ a:hover::after {
     /* border: 3px dashed purple; */
     /* display: flex; */
     background-color: var(--tertiary);
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
     justify-content: space-between;
   }
 
