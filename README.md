@@ -1,6 +1,6 @@
 
 # Advanced CSS - Module 2 Challenge
-
+![WebApp](./assets/images/completed-challenge-screenshot.jpg)
 
 
 # The Challenge
