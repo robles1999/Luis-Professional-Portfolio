@@ -1,11 +1,10 @@
-
 # Advanced CSS - Module 2 Challenge
-![WebApp](./assets/images/completed-challenge-screenshot.jpg)
 
+![WebApp](./assets/images/completed-challenge-screenshot.jpg)
 
 # The Challenge
 
- The challenge was to build a portfolio page, which I can showcase my previous work with potential employers.
+The challenge was to build a portfolio page, which I can showcase my previous work with potential employers.
 
 ## Acceptance Criteria
 
@@ -23,10 +22,9 @@
 - WHEN I resize the page or view the site on various screens and devices
 - THEN I am presented with a responsive layout that adapts to my viewport ✅
 
-
 # Landing Page
 
-[Link to My Work Portfolio website.](https://robles1999.github.io/Professional-Portfolio---Module-2)
+[Link to My Work Portfolio website.](https://robles1999.github.io/Luis-Professional-Portfolio)
 
 # Built with
 
