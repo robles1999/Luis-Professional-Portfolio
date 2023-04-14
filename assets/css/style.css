@@ -130,8 +130,8 @@ a:visited {
   position: relative;
   width: 1177px;
   height: 575px;
-  background-size: 1850px;
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../images/player-one-reads.jpg");
+  background-size: 101%;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #4d565c;
@@ -452,7 +452,8 @@ a:hover::after {
     position: relative;
     max-width: 100%;
     height: 575px;
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/player-one-reads.jpg");
+    background-size: 101%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #4d565c;
