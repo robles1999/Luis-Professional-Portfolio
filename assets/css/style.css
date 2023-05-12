@@ -130,8 +130,8 @@ a:visited {
   position: relative;
   width: 1177px;
   height: 575px;
-  background-image: url("../images/player-one-reads.jpg");
-  background-size: 101%;
+  /* background-image: url("../images/heartfelt-rsvp.png");
+  background-size: 101%; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #4d565c;
@@ -178,9 +178,9 @@ a:visited {
   width: 579px;
   margin: 0px 10px 20px;
   height: 275px;
-  min-width: 300px;
-  background-size: auto;
-  background-image: url("../images/02-portfolio-1.jpg");
+  /* min-width: 100px;
+  background-image: url("../images/player-one-reads.jpg");
+  background-size: 50%; */
 }
 
 .img-3 {
@@ -448,11 +448,14 @@ a:hover::after {
     padding: 0px 0px 0px 0px;
   }
 
+  /* :::::::::::::::::: */
+  /* CHANGE IMAGES HERE */
+  /* :::::::::::::::::: */
   .img-1 {
     position: relative;
     max-width: 100%;
     height: 575px;
-    background-image: url("../images/player-one-reads.jpg");
+    background-image: url("../images/heartfelt-rsvp.png");
     background-size: 101%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -465,7 +468,8 @@ a:hover::after {
     height: 275px;
     max-width: 50%;
     background-size: auto;
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("../images/player-one-reads.png");
+    background-size: 100%;
     padding: 0px 0px 0px 0px;
   }
 
