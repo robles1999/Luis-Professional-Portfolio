@@ -2,13 +2,14 @@ document
   .querySelector(".img-1")
   .addEventListener(
     "click",
-    () =>
-      (window.location.href = "https://egarrisxn.github.io/player-one-reads/")
+    () => (window.location.href = "https://heartrsvp.herokuapp.com/")
   );
 document
   .querySelector(".img-2")
-  .addEventListener("click", () =>
-    alert("Website under construction. Please try again later.")
+  .addEventListener(
+    "click",
+    () =>
+      (window.location.href = "https://egarrisxn.github.io/player-one-reads/")
   );
 document
   .querySelector(".img-3")
